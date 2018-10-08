@@ -8,5 +8,6 @@ void testGetTriangleType() {
 int main() {
     assert(addNumber(5, 2) == 7);
     testGetTriangleType();
+    assert(minNumber(5, 2) == 3);
     return 0;
 }
